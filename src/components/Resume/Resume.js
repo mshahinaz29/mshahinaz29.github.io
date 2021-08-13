@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+import pdf from "../../Assets/Shahin-Abdul-Zamad.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -42,45 +42,64 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
-              date="June 2020 - August 2020"
+              title="SENIOR WEB DEVELOPER [Pixzel Digital]"
+              date="January 2021 - July 2021"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
-              ]}
-            />
-            <h3 className="resume-title">Extracurricular Activities</h3>
-            <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
-              content={[
-                "Worked on creating the frontend-end of the website using Bootstrap, Javascript.",
+                "Assigned as a team lead in developing an ERP (Enterprise Resource Planning) Project for a construction company.",
+                "Deployed an Online School Registration Portal based in Singapore",
               ]}
             />
             <Resumecontent
+              title="JUNIOR WEB DEVELOPER [Pixzel Digital]"
+              date="October 2018 - December 2020"
+              content={[
+                "Developed an Order Management and Inventory System for a Medicine Supplier company in Iligan City",
+                "Developed and deployed an Accounting System to be utilized by a school",
+                "Developed an eCommerce, Order fulfillment and Inventory system for a Hardware Supplies Company",
+                "Developed an eCommerce and online selling platform for Pharmacies in Iligan. Subscriber Pharmacies can also access more features like Inventory, POS, Sales Reporting etc."
+              ]}
+            />
+            <h3 className="resume-title">Eligibility</h3>
+            <Resumecontent
+              title="Civil Service Eligibility"
+              content={[
+                "Passed Career Service Professional Examination on March 12, 2017",
+              ]}
+            />
+            {/* <Resumecontent
               title="Web Developer [Bitotsav-2020 Technical Fest of BIT Mesra]"
               content={[
                 "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
               ]}
-            />
+            /> */}
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
-              date="2018 - Present"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
+              title="BS-IT Major in Database Systems [MSU-IIT] "
+              date="2014 - 2018"
+              content={["CUMLAUDE",
+                `CGPA: 1.6`,
+                "DOST Academic Excellence Awardee"
+            ]}
             />
             <Resumecontent
-              title="12TH BOARD [ODM Public School,Odisha]"
-              date="2015 - 2017"
-              content={["Precentage: 88%"]}
+              title="HIGHSCHOOL [MSU-Balo-i Community HighSchool]"
+              date="2010 - 2014"
+              content={["With Special Honor",
+              "Academic Scholar",
+              "Top 21 MSU-SASE Systemwide (2013)",
+              "Leadership Awardee (SSG Vice President 2013-2014)",
+              "DOST passer",
+              "Ayala Young Leader Foundation National Discipline Awardee 2014"
+            ]}
             />
-            <Resumecontent
+            {/* <Resumecontent
               title="10TH BOARD [ST Mary's School,Odisha] "
               date="2005 - 2015"
               content={["Precentage: 86%"]}
-            />
-            <h3 className="resume-title">Ranks and Achivements</h3>
+            /> */}
+            {/* <h3 className="resume-title">Ranks and Achivements</h3>
             <Resumecontent
               title=""
               content={[
@@ -89,7 +108,7 @@ function Resume() {
                 "Top Performer in Code-Break 1.0",
                 "Participant in Hack-A-Bit 2019",
               ]}
-            />
+            /> */}
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>

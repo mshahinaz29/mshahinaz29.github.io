@@ -1,35 +1,33 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiLinux,
-  SiVisualstudiocode,
-  SiJupyter,
-  SiPostman,
-  SiHeroku,
-  SiGit,
-  SiXampp
+  SiLaravel,
+  SiTailwindcss,
+  SiVueDotJs,
+  SiNuxtDotJs,
+  SiMysql,
 } from "react-icons/si";
 
-function Toolstack() {
+function Techstack2() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+        <a href="https://laravel.com/" target="_blank"><SiLaravel /></a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <a href="https://tailwindcss.com/" target="_blank"><SiTailwindcss /></a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGit />
+        <a href="https://vuejs.org/" target="_blank"><SiVueDotJs /></a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <a href="https://nuxtjs.org/" target="_blank"><SiNuxtDotJs /></a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiXampp />
+      <a href="https://www.mysql.com/" target="_blank"><SiMysql /></a>
       </Col>
     </Row>
   );
 }
 
-export default Toolstack;
+export default Techstack2;

@@ -10,6 +10,14 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
+import cpf from "../../Assets/Projects/cpf.png";
+import ibotika from "../../Assets/Projects/ibotika.png";
+import krisland from "../../Assets/Projects/krisland.png";
+import ncmc from "../../Assets/Projects/ncmc.png";
+import sjck from "../../Assets/Projects/sjck.png";
+import tlg from "../../Assets/Projects/tlg.png";
+import up2nine  from "../../Assets/Projects/up2nine.png";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -22,64 +30,66 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+
+        <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={krisland}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Krisland"
+              description="eCommerce that sells construction supplies in Iligan City. Also includes inventory, order fulfillment, POS, procurement and report generation modules for management use."
+              link="projects/krisland"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={ibotika}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Ibotika"
+              description="eCommerce and a platform for pharmacies to sell their medicines and other products online. It also includes POS and Inventory systen for subscriber pharmacies. "
+              link="http://ibotika.com/"
+            />
+          </Col>
+
+          
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={up2nine}
+              isBlog={false}
+              title="Inventory system with E-commerce"
+              description="Inventory, Order fulfillment, Sales reporting, mini accounting and eCommerce system made for Medicine Supplier in Iligan City. Client pharmacies order bulk of medicines to the supplier using the system."
+              link="projects/supply-management"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={tlg}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="The Loving Garden"
+              description="Website in where grieving people can donate in honor of their loved one(s) in a form of a seed (cash donations). Flowers (cash proceeds) are then given to Child loss support, Funeral arrangement support, Medical bill support, Education, Childcare, Covid Relief Fund and others."
+              link="https://thelovinggarden.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={ncmc}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="School Management Information System"
+              description="tailored system made for a school in where school staff can manage enrollments, payments, scholarship applications, programs, courses, students' grades. System can also be used by students to enroll, enlist program courses (subjects), view course schedule and view grades."
+              link="projects/ncmc"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={sjck}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="School Online Registration Portal"
+              description="an online registration portal made for a school based in Singapore. Parents use the system to reserve a slot for their children in advance (usually 1 to 3 years ahead). A payment gateway has also been integrated in order for parents to pay instantly."
+              link="projects/sjck"
             />
           </Col>
         </Row>
