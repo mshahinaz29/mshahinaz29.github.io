@@ -1,8 +1,10 @@
-import React from "react";
+// import React from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
+import Nav from "react-bootstrap/Nav";
+import { Link } from "react-router-dom";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.jpeg";
 import editor from "../../Assets/Projects/codeEditor.png";
@@ -19,6 +21,18 @@ import tlg from "../../Assets/Projects/tlg.png";
 import up2nine  from "../../Assets/Projects/up2nine.png";
 
 function Projects() {
+  const [expand, updateExpanded] = useState(false);
+  const [navColour, updateNavbar] = useState(false);
+
+  function scrollHandler() {
+    if (window.scrollY >= 20) {
+      updateNavbar(true);
+    } else {
+      updateNavbar(false);
+    }
+  }
+
+  window.addEventListener("scroll", scrollHandler);
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -35,16 +49,19 @@ function Projects() {
             <ProjectCard
               imgPath={krisland}
               isBlog={false}
+              isBlank={false}
               title="Krisland"
               description="eCommerce that sells construction supplies in Iligan City. Also includes inventory, order fulfillment, POS, procurement and report generation modules for management use."
               link="projects/krisland"
             />
+            
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ibotika}
               isBlog={false}
+              isBlank={true}
               title="Ibotika"
               description="eCommerce and a platform for pharmacies to sell their medicines and other products online. It also includes POS and Inventory systen for subscriber pharmacies. "
               link="http://ibotika.com/"
@@ -67,6 +84,7 @@ function Projects() {
             <ProjectCard
               imgPath={tlg}
               isBlog={false}
+              isBlank={true}
               title="The Loving Garden"
               description="Website in where grieving people can donate in honor of their loved one(s) in a form of a seed (cash donations). Flowers (cash proceeds) are then given to Child loss support, Funeral arrangement support, Medical bill support, Education, Childcare, Covid Relief Fund and others."
               link="https://thelovinggarden.com/"
