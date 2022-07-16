@@ -5,12 +5,6 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Nav from "react-bootstrap/Nav";
 import { Link } from "react-router-dom";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 
 import cpf from "../../Assets/Projects/cpf.png";
 import ibotika from "../../Assets/Projects/ibotika.png";
@@ -19,6 +13,7 @@ import ncmc from "../../Assets/Projects/ncmc.png";
 import sjck from "../../Assets/Projects/sjck.png";
 import tlg from "../../Assets/Projects/tlg.png";
 import up2nine  from "../../Assets/Projects/up2nine.png";
+import winedepot  from "../../Assets/Projects/winedepot.png";
 
 function Projects() {
   const [expand, updateExpanded] = useState(false);
@@ -44,6 +39,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={winedepot}
+              isBlog={false}
+              isBlank={false}
+              title="Inventory and Order Management System"
+              description="A software in where liquor suppliers can manage their inventory, orders, sales, depots and generate reports."
+              link="projects/winedepot"
+            />
+            
+          </Col>
 
         <Col md={4} className="project-card">
             <ProjectCard

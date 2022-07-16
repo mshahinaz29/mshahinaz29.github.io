@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Ibotika from "./components/Projects/ProjectList/Ibotika";
 import Krisland from "./components/Projects/ProjectList/Krisland";
+import Winedepot from "./components/Projects/ProjectList/Winedepot";
 import Ncmc from "./components/Projects/ProjectList/Ncmc";
 import Sjck from "./components/Projects/ProjectList/Sjck";
 import Tlg from "./components/Projects/ProjectList/Tlg";
@@ -43,6 +44,7 @@ function App() {
           <Route path="/resume" component={Resume} />
 
           <Route path="/projects/krisland" component={Krisland} />
+          <Route path="/projects/winedepot" component={Winedepot} />
           <Route path="/projects/ibotika" component={Ibotika} />
           <Route path="/projects/supply-management" component={Up2nine} />
           <Route path="/projects/ncmc" component={Ncmc} />

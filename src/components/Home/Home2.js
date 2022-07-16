@@ -20,13 +20,14 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a developer for the past 3 years.
+              I'm a Software developer with 4 years actual work experience
               {/* I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️ */}
               <br />
-              <br />I am fluent in classics like
+              <br />I developed a wide range of websites and systems using
               <i>
-                <b className="purple"> PHP/Laravel, Javascript (VueJS and JQuery) and Python. </b>
+                <b className="purple"> Laravel/PHP, ReactJS, VueJS, HTML5, CSS3, MySQL, jQuery, AJAX, bootstrap, tailwind and APIs </b>
+                from small to complex ecommerce sites.
               </i>
               <br />
               <br />

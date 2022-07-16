@@ -42,6 +42,14 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
+              title="WEB DEVELOPER [Kuban Empire]"
+              date="September 2021 - Present"
+              content={[
+                "Maintained an existing inventory system",
+                "Convert old system to a React project"
+              ]}
+            />
+            <Resumecontent
               title="SENIOR WEB DEVELOPER [Pixzel Digital]"
               date="January 2021 - July 2021"
               content={[
