@@ -45,7 +45,7 @@ function Projects() {
               imgPath={winedepot}
               isBlog={false}
               isBlank={false}
-              title="Inventory and Order Management System"
+              title="Inventory and Order Management System "
               description="A software in where liquor suppliers can manage their inventory, orders, sales, depots and generate reports."
               link="projects/winedepot"
             />
