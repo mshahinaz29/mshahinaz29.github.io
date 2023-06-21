@@ -9,7 +9,7 @@ import {
   DiPython,
   DiGit,
 } from "react-icons/di";
-import { SiLaravel,SiVuedotjs,SiPytorch, SiNuxtdotjs,SiTailwindcss,SiMysql,
+import { SiLaravel,SiVuedotjs, SiLivewire, SiNuxtdotjs,SiTailwindcss,SiMysql,
   SiJquery, SiFirebase } from "react-icons/si";
 
 function Techstack() {
@@ -19,7 +19,10 @@ function Techstack() {
         <SiLaravel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiLivewire />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVuedotjs />
@@ -29,10 +32,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
+      </Col>      
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>      

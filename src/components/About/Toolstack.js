@@ -7,7 +7,8 @@ import {
   SiPostman,
   SiHeroku,
   SiGit,
-  SiXampp
+  SiXampp,
+  SiDocker
 } from "react-icons/si";
 
 function Toolstack() {
@@ -26,7 +27,7 @@ function Toolstack() {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiXampp />
+        <SiDocker />
       </Col>
     </Row>
   );
