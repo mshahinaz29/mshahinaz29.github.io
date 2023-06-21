@@ -20,7 +20,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm a Software developer with 4 years actual work experience
+              I'm a Software developer with 5 years actual work experience
               {/* I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️ */}
               <br />
