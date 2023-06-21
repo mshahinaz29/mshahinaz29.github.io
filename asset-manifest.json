@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a6f79776.css",
-    "main.js": "/static/js/main.2b179962.js",
+    "main.js": "/static/js/main.6270d5ac.js",
     "static/js/377.8325c12b.chunk.js": "/static/js/377.8325c12b.chunk.js",
     "static/media/tlg.png": "/static/media/tlg.80242ece4527d14b9ac2.png",
     "static/media/cpf.png": "/static/media/cpf.2ba11d99527dbf96fa4d.png",
@@ -14,6 +14,7 @@
     "static/media/Screenshot_4.png": "/static/media/Screenshot_4.89574b14cb12a0647cfb.png",
     "static/media/Screenshot_7.png": "/static/media/Screenshot_7.47f8e097739a88623e9a.png",
     "static/media/Screenshot_3.png": "/static/media/Screenshot_3.7a64a3ef5c45457545ab.png",
+    "static/media/Resume 2023 - Shahin Abdul Zamad.pdf": "/static/media/Resume 2023 - Shahin Abdul Zamad.fb148b6666b48ca4bb36.pdf",
     "static/media/Screenshot_25.png": "/static/media/Screenshot_25.4b12bc10108aa30cdbe4.png",
     "static/media/winedepot.png": "/static/media/winedepot.9501a9b76f0dd9a50b3b.png",
     "static/media/up2nine.png": "/static/media/up2nine.2f499ce01c80e85e2c07.png",
@@ -43,11 +44,11 @@
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
     "main.a6f79776.css.map": "/static/css/main.a6f79776.css.map",
-    "main.2b179962.js.map": "/static/js/main.2b179962.js.map",
+    "main.6270d5ac.js.map": "/static/js/main.6270d5ac.js.map",
     "377.8325c12b.chunk.js.map": "/static/js/377.8325c12b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6f79776.css",
-    "static/js/main.2b179962.js"
+    "static/js/main.6270d5ac.js"
   ]
 }
