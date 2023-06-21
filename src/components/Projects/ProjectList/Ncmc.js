@@ -40,7 +40,7 @@ function Ncmc() {
             <Card.Body>
                 <blockquote className="blockquote mb-0">
                 <p style={{ textAlign: "justify" }}>
-                    {/* <span className="purple">Soumyajit Behera </span> */}
+                    {/* <span className="purple">Shahin Abdul Zamad </span> */}
                     Website, students' portal and school management system made for a school based in Maranding. Some modules and features include:
                 </p>
                 <ul>                

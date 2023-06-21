@@ -39,7 +39,7 @@ function Up2nine() {
             <Card.Body>
                 <blockquote className="blockquote mb-0">
                 <p style={{ textAlign: "justify" }}>
-                    {/* <span className="purple">Soumyajit Behera </span> */}
+                    {/* <span className="purple">Shahin Abdul Zamad </span> */}
                     System made for a Medicine Supplier in Iligan City. Client pharmacies order bulk of medicines to the supplier using the system. Some modules and features are:
                 </p>
                 <ul>     

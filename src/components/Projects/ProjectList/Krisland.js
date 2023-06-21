@@ -40,7 +40,7 @@ function Krisland() {
             <Card.Body>
                 <blockquote className="blockquote mb-0">
                 <p style={{ textAlign: "justify" }}>
-                    {/* <span className="purple">Soumyajit Behera </span> */}
+                    {/* <span className="purple">Shahin Abdul Zamad </span> */}
                     eCommerce and Inventory system made for Construction supplies store in Iligan City. Some modules are:
                 </p>
                 <ul>                

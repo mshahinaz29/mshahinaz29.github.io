@@ -40,7 +40,7 @@ function Winedepot() {
             <Card.Body>
                 <blockquote className="blockquote mb-0">
                 <p style={{ textAlign: "justify" }}>
-                    {/* <span className="purple">Soumyajit Behera </span> */}
+                    {/* <span className="purple">Shahin Abdul Zamad </span> */}
                     A software in where liquor suppliers can manage their inventory, orders, sales, depots and generate reports. Some modules are:
                 </p>
                 <ul>                

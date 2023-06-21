@@ -40,7 +40,7 @@ function Sjck() {
             <Card.Body>
                 <blockquote className="blockquote mb-0">
                 <p style={{ textAlign: "justify" }}>
-                    {/* <span className="purple">Soumyajit Behera </span> */}
+                    {/* <span className="purple">Shahin Abdul Zamad </span> */}
                     an online registration portal made for a school based in Singapore. Parents use the system to reserve a slot for their children in advance (usually 1 to 3 years ahead). A payment gateway has also been integrated in order for parents to pay instantly. Some modules and features include:
                 </p>
                 <ul>                
