@@ -3,8 +3,8 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiLaravel,
   SiTailwindcss,
-  SiVueDotJs,
-  SiNuxtDotJs,
+  SiVuedotjs,
+  SiNuxtdotjs,
   SiMysql,
 } from "react-icons/si";
 
@@ -18,10 +18,10 @@ function Techstack2() {
         <a href="https://tailwindcss.com/" target="_blank"><SiTailwindcss /></a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <a href="https://vuejs.org/" target="_blank"><SiVueDotJs /></a>
+        <a href="https://vuejs.org/" target="_blank"><SiVuedotjs /></a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <a href="https://nuxtjs.org/" target="_blank"><SiNuxtDotJs /></a>
+        <a href="https://nuxtjs.org/" target="_blank"><SiNuxtdotjs /></a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
       <a href="https://www.mysql.com/" target="_blank"><SiMysql /></a>

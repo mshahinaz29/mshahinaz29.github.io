@@ -3,14 +3,19 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillGithub
 } from "react-icons/ai";
 import { SiUpwork } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
+import moment from "moment";
 
 function Home2() {
+
+  function getYearsExperience() {    
+    const years = moment().diff('2018-01-01', 'years');
+    return years ;
+  }
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -20,14 +25,14 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm a Software developer with 5 years actual work experience
+              I'm a Software developer with {getYearsExperience()} years actual work experience
               {/* I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️ */}
               <br />
               <br />I developed a wide range of websites and systems using
               <i>
-                <b className="purple"> Laravel/PHP, ReactJS, VueJS, HTML5, CSS3, MySQL, jQuery, AJAX, bootstrap, tailwind and APIs </b>
-                from small to complex ecommerce sites.
+                <b className="purple"> Laravel/PHP, React, Vue.js, Livewire, Nuxt.js, Next.js, Node.js, Express, HTML5, CSS3, JavaScript, TypeScript, MySQL, PostgreSQL, MongoDB, REST API, jQuery, bootstrap and tailwind </b>
+                from small to large-scale web applications.
               </i>
               <br />
               <br />
@@ -67,17 +72,7 @@ function Home2() {
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
-            <ul className="home-about-social-links">              
-              {/* <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li> */}
+            <ul className="home-about-social-links">    
              
               <li className="social-icons">
                 <a

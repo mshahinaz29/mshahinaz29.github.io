@@ -1,8 +1,15 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import moment from "moment/moment";
 
 function AboutCard() {
+
+  function getYearsExperience() {    
+    const years = moment().diff('2018-01-01', 'years');
+    return years ;
+  }
+  
   return (
     <Card className="quote-card-view">
       <Card.Body>
@@ -10,7 +17,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Mohammad Shahin Abdul Zamad </span>
             from <span className="purple"> Iligan City, Lanao del Norte, Philippines.</span>
-            <br />I'm a <span className="purple">full stack developer</span> with <span className="purple">4</span> years of solid experience.
+            <br />I'm a <span className="purple">full stack developer</span> with <span className="purple">{getYearsExperience()}</span> years of solid experience.
             <br />I graduated from <span className="purple">MSU-IIT</span> with the degree of <span className="purple">Bachelor of Science in Information Technology</span> Major in <span className="purple">Database Systems</span>
             <br />
             Apart from coding, some other activities that I love to do!
