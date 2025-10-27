@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
 import pdf from "../../Assets/Shahin-Abdul-Zamad.pdf";
-import newResume from "../../Assets/Resume 2023 - Shahin Abdul Zamad.pdf";
+import newResume from "../../Assets/CV-Mohammad-Shahin-Abdul Zamad-2025.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -43,8 +43,29 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
+              title="Lead Software Developer [Web Fuel Agency]"
+              date="Feb 2024 - Present"
+              content={[
+                "Designed database schema and architecture for new features",
+                "Spearheaded the development of multiple systems and applications",
+                "Developed Backend API endpoints",
+                "Performed third party API integrations",
+                "Optimized slow queries",                
+              ]}
+            />
+            <Resumecontent
+              title="Full Stack (TALL Stack) DEVELOPER [Leif Agency]"
+              date="June 2023 - Jan 2024"
+              content={[
+                "Implemented new features to existing Lead Distribution System",
+                "Assisted in migrating the project from using a 3rd party integration to creating own implementation",
+                "Performed third party API integrations",
+                "Optimized slow queries"
+              ]}
+            />
+            <Resumecontent
               title="WEB DEVELOPER [Kuban Empire]"
-              date="September 2021 - Present"
+              date="September 2021 - June 2023"
               content={[
                 "Maintained an existing inventory system",
                 "Convert old system to a React project"

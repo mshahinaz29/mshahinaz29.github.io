@@ -14,6 +14,9 @@ import sjck from "../../Assets/Projects/sjck.png";
 import tlg from "../../Assets/Projects/tlg.png";
 import up2nine  from "../../Assets/Projects/up2nine.png";
 import winedepot  from "../../Assets/Projects/winedepot.png";
+import gigasure  from "../../Assets/Projects/gigasure/landing.png";
+import racer  from "../../Assets/Projects/racer/landing.png";
+import regalatop  from "../../Assets/Projects/regala-top/landing.png";
 
 function Projects() {
   const [expand, updateExpanded] = useState(false);
@@ -40,6 +43,42 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gigasure}
+              isBlog={false}
+              isBlank={true}
+              title="Insurance Management System"
+              description="A system made for a insurance company in UK to manage their clients' insurance policies, claims, payments and generate reports."
+              link="https://gigasure.com/"
+            />
+            
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={racer}
+              isBlog={false}
+              isBlank={true}
+              title="Racer - Connecting organizers and runners in one platform"
+              description="A web platform that enables race organizers to post and manage their running events, sell registration tickets and merchandise, and communicate directly with participants through an integrated messaging system"
+              link="https://getracer.com/en/"
+            />
+            
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={regalatop}
+              isBlog={false}
+              isBlank={true}
+              title="Event Wishlist Management System"
+              description="A gifting and event-funding platform where users create event wishlists, share them with friends and family for contributions, and receive payouts once goals are met."
+              link="https://regalatop.cl/"
+            />
+            
+          </Col>
+
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={winedepot}
@@ -57,8 +96,8 @@ function Projects() {
               imgPath={krisland}
               isBlog={false}
               isBlank={false}
-              title="Krisland"
-              description="eCommerce that sells construction supplies in Iligan City. Also includes inventory, order fulfillment, POS, procurement and report generation modules for management use."
+              title="Krisland ERP and E-commerce"
+              description="eCommerce that sells construction supplies in Iligan City. Also includes warehouse, inventory, order fulfillment, POS, procurement and report generation modules for management use."
               link="projects/krisland"
             />
             
@@ -69,7 +108,7 @@ function Projects() {
               imgPath={ibotika}
               isBlog={false}
               isBlank={true}
-              title="Ibotika"
+              title="Ibotika POS and E-commerce"
               description="eCommerce and a platform for pharmacies to sell their medicines and other products online. It also includes POS and Inventory systen for subscriber pharmacies. "
               link="http://ibotika.com/"
             />

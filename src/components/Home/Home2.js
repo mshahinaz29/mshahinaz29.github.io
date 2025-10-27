@@ -31,7 +31,7 @@ function Home2() {
               <br />
               <br />I developed a wide range of websites and systems using
               <i>
-                <b className="purple"> Laravel/PHP, React, Vue.js, Livewire, Nuxt.js, Next.js, Node.js, Express, HTML5, CSS3, JavaScript, TypeScript, MySQL, PostgreSQL, MongoDB, REST API, jQuery, bootstrap and tailwind </b>
+                <b className="purple"> Laravel/PHP, React, Vue.js, Livewire, Nuxt.js, Alpine.js, Next.js, Node.js, Express, HTML5, CSS3, JavaScript, TypeScript, MySQL, PostgreSQL, MongoDB, REST API, jQuery, Bootstrap and Tailwind </b>
                 from small to large-scale web applications.
               </i>
               <br />
@@ -76,7 +76,7 @@ function Home2() {
              
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/mohammad-shahin-abdul-zamad-8b8738132"
+                  href="https://www.linkedin.com/in/shahin-az"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
